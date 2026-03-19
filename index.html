@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JS Assignment Dashboard</title>
+  <!-- ===========================================================================
+    FILL THIS WITH A PROFESSIONAL HEADER
+    INCLUDE YOUR EMAIL, DATE, AND COPYRIGHT
+  ============================================================================== -->
+    <style>
+        body { font-family: sans-serif; padding: 20px; line-height: 1.6; background: #f4f4f9; }
+        .card { background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 10px; }
+        h1 { color: #333; }
+        .pass { color: green; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>My JavaScript Lab Results</h1>
+  <h2> YOUR-NAME-HERE</h2>
+  <h3>Replace this with a descriptive paragraph</h3>
+    <div id="results">
+        <div class="card">
+            <p><strong>Status:</strong> Your code is loaded. Open the <strong>Console</strong> (F12) to see detailed output!</p>
+            <p class="pass">Check the GitHub Actions tab to see your official grade.</p>
+        </div>
+    </div>
+
+    <script src="assignment.js"></script>
+    
+    <script>
+        // Simple visual feedback for the student
+        console.log("Assignment loaded!");
+        // Example: logic to display a result on the page
+        // TODO: add your own informative page content
+        const demo = sumArray([1, 2, 3, 4, 5]);
+        document.getElementById('results').innerHTML += `<div class='card'>Live Test: sumArray([1,2,3,4,5]) = ${demo}</div>`;
+    </script>
+</body>
+</html>
