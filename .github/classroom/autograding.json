@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "Task 1: sumArray",
+      "setup": "npm install",
+      "run": "npx jest -t '1. sumArray'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 2: filterHighNumbers",
+      "setup": "npm install",
+      "run": "npx jest -t '2. filterHighNumbers'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 3: fizzBuzz",
+      "setup": "npm install",
+      "run": "npx jest -t '3. fizzBuzz'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 4: findMax",
+      "setup": "npm install",
+      "run": "npx jest -t '4. findMax'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 5: getStringLengths",
+      "setup": "npm install",
+      "run": "npx jest -t '5. getStringLengths'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 6: createUser",
+      "setup": "npm install",
+      "run": "npx jest -t '6. createUser'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 7: getAdultNames",
+      "setup": "npm install",
+      "run": "npx jest -t '7. getAdultNames'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 8: titleCase",
+      "setup": "npm install",
+      "run": "npx jest -t '8. titleCase'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 9: countChar",
+      "setup": "npm install",
+      "run": "npx jest -t '9. countChar'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    },
+    {
+      "name": "Task 10: isPalindrome",
+      "setup": "npm install",
+      "run": "npx jest -t '10. isPalindrome'",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 10
+    }
+  ]
+}
