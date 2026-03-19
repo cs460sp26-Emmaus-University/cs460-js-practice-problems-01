@@ -1,0 +1,12 @@
+{
+  "name": "js-logic-lab-04",
+  "version": "1.0.0",
+  "description": "Arrays, Loops, and Logic Assignment - 10 problems",
+  "main": "assignment.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
+}
